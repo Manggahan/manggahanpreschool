@@ -1,0 +1,171 @@
+body{
+  background-image: url('gautam-arora-78Ae6N7rNvI-unsplash.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: center center;
+    overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.page-wrapper {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.nav-button1, .nav-button2, .nav-button3 {
+  font-size: 20px;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  display: inline-block;
+}
+
+.nav-button1 { background-color: #a584a7; }
+.nav-button2 { background-color: #85739e; }
+.nav-button3 { background-color: #a07688; }
+
+.nav-button1:hover { background: #fff; color: #e27773; }
+.nav-button2:hover { background: #dfdfdf; color: #81c3ee; }
+.nav-button3:hover { background: #c9c9c9; color: #e6cd7d; }
+
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  margin-top: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+.curriculum-table,
+.curriculum-table1,
+.curriculum-table2 {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffffd9;
+    position: relative;
+}
+.curriculum-table::before,
+.curriculum-table1::before,
+.curriculum-table2::before {
+    content: "✨";
+    font-size: 28px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.curriculum-table::after,
+.curriculum-table1::after,
+.curriculum-table2::after {
+    content: "🌸";
+    font-size: 28px;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+}
+.curriculum-table,
+.curriculum-table1,
+.curriculum-table2 {
+    box-shadow: 0 0 20px rgba(255, 182, 245, 0.35);
+}
+
+.curriculum-table table,
+.curriculum-table1 table,
+.curriculum-table2 table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+.title-row th {
+    background: #00c0e6;
+    color: #ff5ccd;
+    font-size: 36px;
+    padding: 20px 0;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-shadow: 0 0 8px rgba(255, 100, 200, 0.5);
+}
+.week-row th {
+    background: #ffd6eb;
+    padding: 14px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.topic-row td {
+    padding: 14px 0;
+    font-size: 13px;
+    font-weight: 600;
+    background: white;
+    border-bottom: 2px solid #eee;
+}
+.week-row th,
+.topic-row td {
+    border-right: 1px solid #ddd;
+}
+
+.week-row th:last-child,
+.topic-row td:last-child {
+    border-right: none;
+}
+.curriculum-table2 .title-row th {
+    color: #e8ff5f;  
+}
+

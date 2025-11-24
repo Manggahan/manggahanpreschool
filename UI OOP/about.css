@@ -1,0 +1,146 @@
+body{
+  background-image: url('colorful-classroom.jpg'); 
+  width: 0 1920px 20000px ;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+
+.sun{
+    top: -75px;
+    left: 1600px;
+    position: relative;
+    position: fixed;
+  
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav {
+   
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-button1 {
+    height: 40px ;
+    width: 100px ;
+    top: -5px;
+    left: -40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: #b97dbb;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px;
+       position: relative;
+    
+}
+.nav-button2 {
+    height: 40px ;
+    width: 100px ;
+    top: -5px;
+    left: -35px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: #896ab1;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px;
+       position: relative;
+   
+}
+.nav-button3 {
+    height: 40px ;
+    width: 100px ;
+    top: -5px;
+    left: -36px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: #965e75;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px;
+       position: relative;
+    
+}
+
+.nav-button1:hover {
+    background-color: #ffffff;
+    color: #e27773;
+}
+.nav-button2:hover {
+    background-color:#dfdfdf;
+    color: #81c3ee;
+}
+.nav-button3:hover {
+    background-color:  #c9c9c9;
+    color: #e6cd7d;
+}
+
+/* ABOUT SECTION STYLING */
+.about-section {
+    background-color: #fff3f8; /* soft pastel pink background */
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 4px dashed #ffb6c1; /* playful border */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    margin: 40px auto;
+    max-width: 900px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.about-section h2 {
+    color: #ff5ccd;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgba(255, 100, 200, 0.5);
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.7;
+}
+
+.design-elements {
+    margin-top: 25px;
+}
+
+.design-elements .star,
+.design-elements .flower,
+.design-elements .sparkle {
+    font-size: 28px;
+    margin: 0 10px;
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}

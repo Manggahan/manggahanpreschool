@@ -1,0 +1,165 @@
+body{
+  background-image: url('colorful-classroom.jpg'); 
+  width: 0 1920px 20000px ;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+
+.sun{
+    top: -75px;
+    left: 1600px;
+    position: relative;
+    position: fixed;
+  
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav {
+   
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-button1 {
+    height: 40px ;
+    width: 100px ;
+    top: -5px;
+    left: -40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: #b97dbb;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px;
+       position: relative;
+    
+}
+.nav-button2 {
+    height: 40px ;
+    width: 100px ;
+    top: -5px;
+    left: -35px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: #896ab1;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px;
+       position: relative;
+   
+}
+.nav-button3 {
+    height: 40px ;
+    width: 100px ;
+    top: -5px;
+    left: -36px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: #965e75;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px;
+       position: relative;
+    
+}
+
+.nav-button1:hover {
+    background-color: #ffffff;
+    color: #e27773;
+}
+.nav-button2:hover {
+    background-color:#dfdfdf;
+    color: #81c3ee;
+}
+.nav-button3:hover {
+    background-color:  #c9c9c9;
+    color: #e6cd7d;
+}
+.team-section {
+    background: linear-gradient(135deg, #fdf6e3, #ffe0f0);
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 25px;
+    max-width: 1000px;
+    margin: 50px auto;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    position: relative;
+    overflow: hidden;
+    border: 4px dashed #ffb6c1;
+}
+
+.team-section h2 {
+    font-size: 38px;
+    color: #ff5ccd;
+    margin-bottom: 15px;
+    text-shadow: 0 0 6px rgba(255, 100, 200, 0.5);
+}
+
+.team-section p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-member {
+    background-color: #fff8f8;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+.team-member h3 {
+    color: #ff5ccd;
+    margin: 10px 0 5px 0;
+    font-size: 20px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #333;
+}
+
+.team-member .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+

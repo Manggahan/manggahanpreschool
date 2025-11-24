@@ -1,0 +1,150 @@
+body {
+  background-image: url('gautam-arora-78Ae6N7rNvI-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.sun {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.teacher {
+    position: absolute; 
+    top: 200px;         
+    left: 450px;        
+    width: 180px;       
+    z-index: 10;       
+}
+
+
+.menu-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.menu-btn {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-top-right-radius: 20px;
+    margin: 25px 0;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 1 13px 33px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 150px;
+    left: 750px;
+}
+
+.pink1 { background: rgba(113, 136, 91, 0.7); }
+.pink2 { background: rgba(134, 71, 71, 0.4); }
+.pink3 { background: rgba(53, 95, 75, 0.7); }
+
+.menu-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    opacity: 0.95;
+}
+
+.menu-btn .text h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #000;
+}
+
+.menu-btn .text p {
+    font-size: 12px;
+    margin: 0;
+    color: #000;
+}
+
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav {
+   
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-button1 {
+    height: 40px ;
+    width: 200px ;
+    top: -5px;
+    left: -40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: rgba#4b2b4d;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 6px 18px;
+       position: relative;
+    
+}
+.nav-button2 {
+    height: 40px ;
+    width: 200px ;
+    top: -5px;
+    left: -35px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: rgba#42305a;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 6px 18px;
+       position: relative;
+   
+}
+.nav-button3 {
+    height: 40px ;
+    width: 200px ;
+    top: -5px;
+    left: -36px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: rgba#472534;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 6px 18px;
+       position: relative;
+    
+}
+
+.nav-button1:hover {
+    background-color: #333232;
+    color: #e27773;
+}
+.nav-button2:hover {
+    background-color:#333232;
+    color: #81c3ee;
+}
+.nav-button3:hover {
+    background-color:  #333232;
+    color: #e6cd7d;
+}

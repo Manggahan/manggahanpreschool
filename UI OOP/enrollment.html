@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="app.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Form</title>
+
+    <link rel="stylesheet" href="enrollment.css">
+</head>
+<body>
+
+<div class="page-wrapper">
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index.html" class="nav-button1">Home</a></li>
+            <li><a href="about.html" class="nav-button2">About</a></li>
+            <li><a href="contact.html" class="nav-button3">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <h2>Enrollment Form</h2>
+
+        <form id="enrollForm">
+
+            <div class="form-group">
+                <label>Student Name</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>Address</label>
+                <textarea required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Age</label>
+                <input type="number" required>
+            </div>
+
+            <div class="form-group">
+                <label>Grade Level</label>
+                <select required>
+                    <option>nursery</option>
+                    <option>daycare</option>
+                    <option>kinder 1</option>
+                    <option>kinder 2</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Guardian Name</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>Guardian Contact Number</label>
+                <input type="tel" required>
+            </div>
+
+            <button class="btn" type="submit" onclick="window.location='end.html';">Submit</button>
+
+        </form>
+
+    </div>
+</div>
+
+<script>
+document.getElementById("enrollForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    window.location.href = "end.html";
+});
+</script>
+
+</body>
+</html>

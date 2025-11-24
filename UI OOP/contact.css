@@ -1,0 +1,234 @@
+body{
+  background-image: url('Copilot_20251119_214518.png'); 
+  background-repeat: no-repeat; 
+  background-position: center center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.sun{
+    top: -75px;
+    left: 1600px;
+    position: relative;
+    position: fixed;
+  
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav {
+   
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-button1 {
+    height: 40px ;
+    width: 100px ;
+    top: -5px;
+    left: -40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: rgba#ae80af;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px;
+       position: relative;
+    
+}
+.nav-button2 {
+    height: 40px ;
+    width: 100px ;
+    top: -5px;
+    left: -35px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: rgba#957fb3;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px;
+       position: relative;
+   
+}
+.nav-button3 {
+    height: 40px ;
+    width: 100px ;
+    top: -5px;
+    left: -36px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color: rgba#a17688;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px;
+       position: relative;
+    
+}
+
+.nav-button1:hover {
+    background-color: #ffffff;
+    color: #e27773;
+}
+.nav-button2:hover {
+    background-color:#dfdfdf;
+    color: #81c3ee;
+}
+.nav-button3:hover {
+    background-color:  #c9c9c9;
+    color: #e6cd7d;
+}
+.menu-container {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-section-new {
+    background: linear-gradient(135deg, #ffd6e0, #fff3b0);
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 25px;
+    max-width: 900px;
+    margin: 50px auto;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
+    /* New border */
+    border: 4px dashed #ff8ab3; /* playful pastel pink */
+}
+
+.contact-section-new::before,
+.contact-section-new::after {
+    content: "🎈";
+    font-size: 60px;
+    position: absolute;
+    z-index: 0;
+}
+.contact-section-new::before {
+    top: -20px;
+    left: -20px;
+}
+.contact-section-new::after {
+    bottom: -20px;
+    right: -20px;
+}
+
+.contact-container-new {
+    position: relative;
+    z-index: 10;
+}
+
+.contact-section-new h2 {
+    font-size: 38px;
+    color: #ff5ccd;
+    margin-bottom: 20px;
+    text-shadow: 0 0 6px rgba(255, 100, 200, 0.6);
+}
+
+.contact-section-new p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-email-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff8ab3;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.contact-email-btn:hover {
+    transform: scale(1.05);
+    background-color: #ff5ccd;
+}
+
+.contact-email-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff8ab3;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.contact-email-btn:hover {
+    transform: scale(1.05);
+    background-color: #ff5ccd;
+}
+
+.contact-section h2 {
+    color: #00c0e6;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgba(0, 192, 230, 0.5);
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.7;
+}
+
+.contact-section a {
+    color: #ff5ccd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+.contact-design {
+    margin-top: 25px;
+}
+
+.contact-design .star,
+.contact-design .flower,
+.contact-design .sparkle {
+    font-size: 28px;
+    margin: 0 10px;
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
